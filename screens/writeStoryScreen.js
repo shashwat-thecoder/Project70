@@ -19,7 +19,7 @@ export default class App extends React.Component() {
         <TextInput placeholder={"Author"}/>
         <TextInput placeholder={"Write the Story"} multiline={true}/>
 
-        <TouchableOpacity onPress={}><Text>Submit</Text></TouchableOpacity>
+        <TouchableOpacity><Text>Submit</Text></TouchableOpacity>
       </View>
     );
   }
